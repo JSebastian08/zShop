@@ -1,12 +1,21 @@
-
+.site-branding{
+  z-index: 100;
+  position: relative;
+  display: block;
+  float: left;
+  top: 0px;
+  
+}
 #cssmenu {
-  width: auto;
+  width: 100%;
   padding: 0;
   line-height: 1;
   display: block;
   position: relative;
-  z-index: 9999;
-  margin-top: 15px;
+  top: 20px;
+
+  z-index: 99;
+  margin-top: 1px;
 }
 
 ul li {

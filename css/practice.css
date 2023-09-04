@@ -1,0 +1,109 @@
+.main-header{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+/*pagina inicial modificaciones*/
+#container .wrap-container{
+	margin-left: 25%;
+	margin-right: 25%;
+}
+.item{
+	width: 100%;
+	height: auto;
+}
+#owl-travel{
+	width: 100%;
+	height: auto;
+}
+.pruebas{
+	display: grid;
+	grid-template-columns: auto auto auto auto auto auto auto auto;	
+
+}
+.col-1-6 {
+	grid-column-start:1;
+	grid-column-end: 4;
+}
+.col-2-6 {
+	grid-column-start:4;
+	grid-column-end: 9;
+}
+.col-3-6 {
+	grid-column-start:1;
+	grid-column-end: 6;
+}
+.col-4-6 {
+	grid-column-start:6;
+	grid-column-end: 9;
+}
+.col-5-6 {
+	grid-column-start:1;
+	grid-column-end: 5;
+}
+.col-6-6 {
+	grid-column-start:5;
+	grid-column-end: 9;
+}
+.box-item {
+	margin: 0 !important;
+}
+.col-1-4{
+	display:grid;
+	grid-template-columns: auto auto;
+}
+.box-text {
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.button-skin {
+	position: relative;
+	justify-content: center;
+	width: 50%;
+	left: 25%;
+}
+footer{
+	margin-left: 25%;
+	margin-right: 25%;
+
+}
+.final {
+	display: grid;
+	grid-template-columns:  auto auto auto 10%;
+}
+.box-image{
+	background-image: url(./images/15.jpg);
+}
+.imagen1-3{
+	width: 50%;
+	height: auto;
+}
+.box-image{
+	background-image: url(./images/16.jpg);
+}
+.imagen2-3{
+	width: 50%;
+	height: auto;
+}
+.contacto{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+}
+.col-9-3{
+grid-column-start:1;
+margin-right: 8%;
+}
+.col-8-3{
+	grid-column-start:2;
+	margin-right:8%;
+	}
+.col-7-3{
+	grid-column-start:3;
+}
+#intento{
+	display: grid;
+	grid-template-columns: auto auto auto ;
+}
+#boton-contacto{
+	grid-column-start:2;
+}
